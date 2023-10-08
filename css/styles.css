@@ -150,6 +150,7 @@ nav {
 }
 .workers_section {
   background-color: #f4f4fd;
+  height: 732px;
 }
 .workers_list > {
   background-color: var(--White_background-color);
@@ -157,7 +158,8 @@ nav {
 .footer {
   background-color: var(--Dark-color);
   height: 312px;
-
+  display: flex;
+}
 .logo_studio_footer {
   color: var(--Light-color);
 }
@@ -210,4 +212,7 @@ h2 {
 }
 section {
   margin-bottom: 120px;
+}
+.feature {
+  padding-right: 24px;
 }
