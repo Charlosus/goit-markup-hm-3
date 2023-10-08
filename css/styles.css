@@ -216,3 +216,6 @@ section {
 .feature {
   padding-right: 24px;
 }
+image {
+  display: block;
+}
