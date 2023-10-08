@@ -51,12 +51,18 @@ body {
 .list {
   list-style: none;
   display: flex;
-  flex-direction: row;
+}
+.list + .adres {
+  display: flex;
+  flex-direction: flex-end;
 }
 .navi {
   display: flex;
-  flex-direction: row;
   align-items: center;
+}
+.address {
+  display: flex;
+  flex-direction: flex-end;
 }
 .nav_link {
   font-weight: 500;
@@ -70,10 +76,11 @@ body {
 .nav_link + .link:last-child {
   margin-right: 0;
 }
-.contacts_link {
+.contacts-link {
   margin-right: 40px;
 }
-.contacts_link:last-child {
+
+.contacts-link:last-child {
   margin-right: 40px;
 }
 .contact {
@@ -104,6 +111,7 @@ body {
   height: 600px;
   align-items: center;
   flex-direction: column;
+  padding: 188px 0;
 }
 .effective {
   width: 498px;
