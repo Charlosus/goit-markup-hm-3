@@ -1,0 +1,166 @@
+:root {
+  --Primary_Brand-color: #4d5ae5;
+  --Pressed_state-color: #404bbf;
+  --Dark-color: #2e2f42;
+  --Success-color: #31d0aa;
+  --Text-color: #434455;
+  --Subtle_Text-color: #8e8f99;
+  --Accent-color: #e7e9fc;
+  --Light-color: #f4f4fd;
+  --Modal_overlay-color: #2e2f42b7;
+  --Hero_background-color: #2e2f4266;
+  --White_background-color: #ffffff;
+  --Modal_background-color: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--Text-color);
+  background-color: var(--White_background-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--Primary_Brand-color);
+}
+.link {
+  text-decoration: none;
+}
+.logo_studio {
+  color: var(--Dark-color);
+}
+.list {
+  list-style: none;
+}
+.nav_link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--Dark-color);
+}
+.contact {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--Text-color);
+}
+.contact:hover {
+  color: var(--Pressed_state-color);
+}
+.contact:focus {
+  color: var(--Pressed_state-color);
+}
+.nav_link:hover {
+  color: var(--Pressed_state-color);
+}
+.nav_link:focus {
+  color: var(--Pressed_state-color);
+}
+.address {
+  font-style: normal;
+}
+.first_section {
+  background-color: var(--Dark-color);
+}
+.effective {
+  font-size: 56px;
+  line-height: 107%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--White_background-color);
+}
+.order_button {
+  background-color: var(--Primary_Brand-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--White_background-color);
+}
+.order_button:hover,
+.order_button:focus {
+  background-color: var(--Pressed_state-color);
+  cursor: pointer;
+}
+.head_tertiary {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--Dark-color);
+}
+.head_description {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+.header_secondary {
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--Dark-color);
+}
+.workers_section {
+  background-color: #f4f4fd;
+}
+.workers_list > {
+  background-color: var(--White_background-color);
+}
+.footer {
+  background-color: var(--Dark-color);
+}
+.logo_studio_footer {
+  color: var(--Light-color);
+}
+.footer_paragraf {
+  color: var(--Light-color);
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.worker_card {
+  background-color: var(--White_background-color);
+}
+.filtration {
+  background-color: var(--Light-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--Primary_Brand-color);
+}
+.filtration:hover,
+.filtration:focus {
+  color: var(--White_background-color);
+  background-color: var(--Pressed_state-color);
+  cursor: pointer;
+}
+.product_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--Dark-color);
+}
+.product_type {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--Text-color);
+}
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--Dark-color);
+}
