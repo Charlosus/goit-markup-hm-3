@@ -13,6 +13,19 @@
   --Modal_background-color: #fcfcfc;
 }
 
+.container {
+  width: 1158px;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+
+header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--Text-color);
@@ -26,6 +39,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--Primary_Brand-color);
+  margin: auto;
 }
 .link {
   text-decoration: none;
@@ -35,6 +49,12 @@ body {
 }
 .list {
   list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
 }
 .nav_link {
   font-weight: 500;
@@ -42,6 +62,13 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--Dark-color);
+  padding-right: 40px;
+}
+.nav_link + .link:last-child {
+  padding-right: 0;
+}
+.contacts_link {
+  padding-right: 40px;
 }
 .contact {
   font-weight: 500;
@@ -66,9 +93,16 @@ body {
   font-style: normal;
 }
 .first_section {
+  display: flex;
   background-color: var(--Dark-color);
+  height: 600px;
+  align-items: center;
+  flex-direction: column;
 }
 .effective {
+  width: 498px;
+  height: 120px;
+  margin-top: 188px;
   font-size: 56px;
   line-height: 107%;
   text-align: center;
@@ -83,6 +117,11 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: var(--White_background-color);
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .order_button:hover,
 .order_button:focus {
@@ -117,7 +156,8 @@ body {
 }
 .footer {
   background-color: var(--Dark-color);
-}
+  height: 312px;
+
 .logo_studio_footer {
   color: var(--Light-color);
 }
@@ -125,6 +165,7 @@ body {
   color: var(--Light-color);
   line-height: 150%;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 .worker_card {
   background-color: var(--White_background-color);
@@ -163,4 +204,10 @@ h2 {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: var(--Dark-color);
+}
+.blank {
+  display: none;
+}
+section {
+  margin-bottom: 120px;
 }
