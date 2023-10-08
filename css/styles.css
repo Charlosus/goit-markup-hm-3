@@ -154,12 +154,14 @@ body {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: var(--Dark-color);
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .head_description {
   line-height: 150%;
   letter-spacing: 0.02em;
   font-size: 16px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .header_secondary {
   font-size: 36px;
@@ -181,6 +183,7 @@ body {
   background-color: var(--Dark-color);
   height: 312px;
   display: flex;
+  padding: 100px 0;
 }
 .logo_studio_footer {
   color: var(--Light-color);
@@ -193,6 +196,8 @@ body {
 }
 .worker_card {
   background-color: var(--White_background-color);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .filtration {
   background-color: var(--Light-color);
@@ -240,4 +245,20 @@ section {
 }
 image {
   display: block;
+}
+.worker-name-title {
+  padding: 32px 0px;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--Dark-color);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
