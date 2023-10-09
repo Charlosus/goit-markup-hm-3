@@ -60,8 +60,9 @@ body {
 }
 .list-primery {
   gap: 24px;
+  list-style: none;
   display: flex;
-  justify-content: flex-start;
+  text-align: left;
 }
 .list + .adres {
   display: flex;
@@ -126,17 +127,12 @@ body {
   display: flex;
   background-color: var(--Dark-color);
   height: 600px;
-  align-items: center;
-  flex-direction: column;
   padding: 188px 0;
 }
 .effective {
   max-width: 496px;
-  height: 120px;
-  margin-top: 188px;
   font-size: 56px;
   line-height: 107%;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--White_background-color);
 }
@@ -150,7 +146,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--White_background-color);
   padding: 16px 32px;
-  align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -175,7 +170,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   font-size: 16px;
-  text-align: center;
   margin-bottom: 8px;
 }
 .header_secondary {
@@ -186,6 +180,9 @@ body {
   text-transform: capitalize;
   color: var(--Dark-color);
   margin-bottom: 72px;
+}
+.center {
+  text-align: center;
 }
 .workers_section {
   background-color: #f4f4fd;
