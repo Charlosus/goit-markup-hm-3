@@ -17,7 +17,7 @@
   width: 1158px;
   padding-inline: 15px;
   margin-inline: auto;
-  display: flex;
+
 }
 
 header {
@@ -276,6 +276,7 @@ img {
   margin-bottom: 16px;
 }
 .filtration-section {
+  flex-direction: column;
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -293,3 +294,4 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+.filtration-section
