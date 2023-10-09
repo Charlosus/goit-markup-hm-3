@@ -61,12 +61,14 @@ body {
 .list-primery {
   gap: 24px;
   display: flex;
+  justify-content: flex-start;
 }
 .list + .adres {
   display: flex;
   flex-direction: flex-end;
 }
 .item-list {
+  display: flex;
   width: calc((100% - 72px) / 4);
 }
 .navi {
@@ -266,6 +268,7 @@ h2 {
 }
 section {
   padding: 120px 0;
+  display: flex;
 }
 .feature {
   flex-basis: calc((100% - 48px) / 3);
@@ -274,7 +277,7 @@ img {
   display: block;
 }
 .worker-name-title {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 .worker-name {
   font-weight: 500;
