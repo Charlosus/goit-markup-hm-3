@@ -102,7 +102,7 @@ body {
 .nav_link:focus {
   color: var(--Pressed_state-color);
 }
-.addres {
+.list .addres {
   gap: 40px;
 }
 .address {
