@@ -18,7 +18,7 @@
   padding: 0;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-inline: 15px;
   margin-inline: auto;
 }
@@ -132,8 +132,6 @@ body {
 }
 .effective {
   max-width: 496px;
-  height: 120px;
-  margin-top: 188px;
   font-size: 56px;
   line-height: 107%;
   text-align: center;
@@ -151,11 +149,11 @@ body {
   color: var(--White_background-color);
   padding: 16px 32px;
   align-items: flex-start;
+  margin: 0 auto;
   gap: 10px;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   min-width: 169px;
-  height: 56;
   border: none;
   cursor: pointer;
 }
@@ -190,6 +188,7 @@ body {
 .workers_section {
   background-color: #f4f4fd;
   height: 732px;
+
 }
 .workers_list > {
   background-color: var(--White_background-color);
@@ -211,9 +210,13 @@ body {
 }
 .worker_card {
   background-color: var(--White_background-color);
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 48px) / 4);
+  border-radius: 0 0 4px 4px;
 }
+.worker_card img {
+  width: 100%;
+}
+
 .hidden-header {
   visibility: hidden;
 }
@@ -273,11 +276,14 @@ section {
 .feature {
   flex-basis: calc((100% - 48px) / 3);
 }
+.feature img {
+  width: 100%;
+}
 img {
   display: block;
 }
 .worker-name-title {
-  padding: 32px 0px;
+  padding: 32px 0;
 }
 .worker-name {
   font-weight: 500;
