@@ -80,7 +80,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--Dark-color);
-  margin-right: 40px;
   padding: 24px 0 24px;
 }
 .contact {
@@ -102,7 +101,7 @@ body {
 .nav_link:focus {
   color: var(--Pressed_state-color);
 }
-.addres {
+.list .addres {
   gap: 40px;
 }
 .address {
@@ -147,9 +146,8 @@ body {
 .order_button:hover,
 .order_button:focus {
   background-color: var(--Pressed_state-color);
-  cursor: pointer;
 }
-button:hover {
+.order_button:hover {
   cursor: pointer;
 }
 .head_tertiary {
@@ -237,6 +235,7 @@ button:hover {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: var(--Dark-color);
+  margin-bottom: 8px;
 }
 .product_type {
   font-size: 16px;
@@ -264,7 +263,7 @@ img {
   display: block;
 }
 .worker-name-title {
-  padding: 32px 0px;
+  padding: 32px 16px;
 }
 .worker-name {
   font-weight: 500;
