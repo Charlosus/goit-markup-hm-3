@@ -80,6 +80,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--Dark-color);
+  margin-right: 40px;
   padding: 24px 0 24px;
 }
 .contact {
@@ -101,7 +102,7 @@ body {
 .nav_link:focus {
   color: var(--Pressed_state-color);
 }
-.list .addres {
+.addres {
   gap: 40px;
 }
 .address {
