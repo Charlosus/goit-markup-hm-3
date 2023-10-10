@@ -22,6 +22,12 @@
   padding-inline: 15px;
   margin-inline: auto;
 }
+.first_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
 .display {
   display: flex;
 }
@@ -92,7 +98,7 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-right: 320px;
+  margin-right: 329px;
 }
 
 .contact {
@@ -129,12 +135,16 @@ body {
   height: 600px;
   padding: 188px 0;
 }
+.section-second {
+  padding: 120px 0 0;
+}
 .effective {
   max-width: 496px;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   color: var(--White_background-color);
+  text-align: center;
 }
 .order_button {
   display: block;
@@ -264,7 +274,7 @@ h2 {
   visibility: hidden;
 }
 section {
-  padding: 120px 0;
+  padding: 120px 0 120px;
   display: flex;
 }
 .feature {
